@@ -1,127 +1,43 @@
-# Historias de usuario  
-<pre>Sprint	 		Historia de usuario
-	
-  			1.El cliente quiere ver una estructura básica de la aplicación móvil para establecer sus expectativas
-	
-				1.1	Desarrollar los mockups incluyendo el splashscreen, login, home, pantalla de pedidos, pantalla de comentarios y pantalla de configuración
-	
-				1.2	Agregar en los mockups los textos de la aplicación				
-	
-				1.3	Agregar en los mockups las imagenes de la aplicación		
-	
+# teachebleMachine
+Estas son como las referencias que use principalmente:<br/>
+Este es un repo que tiene un ejemplo sencillo y mas ordenado:<br/>
+https://github.com/amitshekhariitbhu/Android-TensorFlow-Lite-Example/blob/master/app/src/main/java/com/amitshekhar/tflite/Classifier.java<br/>
+Aca hay otro repo que tiene muchos ejemplos de como usar el tensorflowLite:<br/>
+https://github.com/techzizou/examples/blob/master/lite/examples/image_classification/android/app/src/main/java/org/tensorflow/lite/examples/classification/ClassifierActivity.java<br/>
+Este es un video mas paso a paso, solo que usan kotlin:<br/>
+https://youtu.be/13TdOYgw2Fc?si=sTZAtRTyoJna8o1T<br/>
+Este esta en ingles pero tambien explica bien como se puede integrar:<br/>
+https://youtu.be/jhGm4KDafKU?si=7PhRMG7y4k_rwnGC<br/>
+Y esta es una documentacion de firebase que tiene los codigos para interpretar las imagenes:<br/>
+https://firebase.google.com/docs/ml/android/use-custom-models?hl=es-419#java_1<br/>
 
-#1			2.El cliente quiere que se escoja la paleta de colores y tipo de letra para definir su identidad empresarial
-	
-				2.1	Determinar la paleta de colores mas conveniente de acuerdo a la tienda			Elegir el color verde para una aplicación sobre plantas puede ayudar a transmitir la esencia de la naturaleza, la vitalidad y la 																	tranquilidad, además de hacer que la aplicación sea fácilmente reconocible y agradable visualmente para los usuarios.
-	
-				2.2	Determinar el tipo de letra a utilizar en la aplicación					Aileron puede ser una excelente opción para una aplicación sobre plantas debido a su estilo moderno y limpio, su legibilidad en pantallas 																digitales, su variedad de estilos y su capacidad para mantener la consistencia de la marca.
-
-  			3.El cliente quiere desarrollar un logo y un eslogan para dar a conocer su marca  
-	
-				3.1	Diseñar el logo de la tienda	
-	
-				3.2	Diseña el eslogan de la tienda	
-
-  						
-			4.El cliente quiere que la aplicación cuente con un Register y un login para identificar a sus clientes	
-	
-				4.1 Desarollar y probar el funcionamiento del registro
-	
-				4.2 implementar un login que autorize el ingreso en base a un registro previo
-	
-#2 			5.El cliente quiere implementar una base de datos que guarde plantas
-	
-				5.1 Crear una realtime database en Firebase y un modulo de autentificacion
-	
-				5.2 Implementar la autentificacion por correo y una forma de administrar las claves por tokens
-	
-  			6.El cliente quiere implementar una forma de realizar un registro de la planta dentro de la aplicacion	
-	
-				5.1 Vincular el UID de cada usuario con su propio jardin
-	
-				5.2 Realizar que la aplicacion pueda leer la base de datos y mostrar las plantas añadidas
-
-  			7.El cliente quiere que la aplicación cuente con un toolbar para mostrar las opciones		
-
-#3  			8.El cliente quiere poder identificar las plantas	
-
-  			9.El cliente quiere poder recibir notificaciones sobre ciclos de riego
-
- 			10.El cliente quiere que la aplicación guarde las personalizaciones del usuario para ofrecer un mejor servicio	
-
-#4			11.El cliente quiere que la aplicación consulte el inventario de su tienda en la nube para mostrar un inventario actualizado	
-
-   			12.El cliente quiere que sus clientes puedan escribir y leer comentarios sobre la tienda para interesar a posibles compradores	
-
- 			13.El cliente quiere que la aplicación cuente con un lector de código de barras para que sus clientes puedan conocer mejor sus productos	
-
-#5			14.El cliente quiere que la aplicación muestre su cuenta de instagram para mejorar la interacción con sus clientes			
-
-  			15.El cliente quiere que se muestre la ubicación geografica de su tienda para que sus clientes sepan donde encontrarlo		
-</pre>
-# Requerimientos 
-<pre>Requerimientos	
-Momentos	
-1.	Usar el lenguaje java para el manejo de la base de datos
-	
-2.	Usar android studio para la creacion de la aplicacion 
-	
-3.	Usar firebase para realizar la base de datos de la apliacion 
-	
-4.	Implementar un sistema de registro de cada planta del usuario, dentro de jardin virtual
-	
-5.	Permitir al usuario modificar sus preferencias de las notificaciones push up
-	
-6.	Crear una aplicacion que notifique al usuario acerca del estado de la planta
-	
-7.	Diseño de una interfaz intuitiva y atractiva que permita a los usuarios navegar fácilmente por la aplicación.
-	
-8.	Integración de menús para modificar la frecuencia y duración del riego.
-	
-9.	Integración de un sistema de reconocimiento de plantas mediante imágenes.
-	
-10.	El sistema debe tener la API de google lens como sistema de reconocimiento.
-	
-11.	Importar las bases de datos climatologicas y botanicas.
-	
-12.	Implementación de algoritmos para determinar los ciclos de riego y la cantidad de luz requerida por cada tipo de planta.
-	
-13.	Consideración de factores como la especie de la planta, condiciones climáticas locales y estación del año para ajustar las recomendaciones.
-	
-14.	Personalizar las recomendaciones de cuidado según la etapa de vida de la planta (semilla, plántula, adulta, etc.)
-	
-15.	Implementar un sistema que permite el ingreso de varias plantas para un mismo usuario con sus distintos atributos
-	
-16.	Dentro de la aplicacion visualizar distintas recomendaciones basadas en la base de datos botanica
-	
-17.	Crear una checklist de recomendaciones al usuario que puede dar por cumplidas dentro de la aplicacion
-
-18.	Crear un menu dentro de la aplicacion para la configuracion de la misma en distintos aspectos como lo puede ser la personalizacion de notificaciones
-	
-19.	Crear un menu que permite visualizar un registro de la actividad del dispositivo y de la planta 
-	
-20.	Crear un login desde el cual el usuario pueda ingresar sus datos y se verifique con los de la base de datos
-	
-21.	Crear un apartado desde el cual el usuario pueda registrar sus datos por primera vez 
-	
-22.	Crear una funcionalidad que envíe recordatorios para regar las plantas según las necesidades específicas de cada una
-	
-23.	Permitir que los usuarios registren y visualicen el progreso de crecimiento de cada planta con fotos y anotaciones
-	
-24.	Ofrecer una sección con información detallada sobre las plantas registradas, incluyendo cuidados generales y curiosidades
-	
-25.	Incluir filtros de búsqueda en la aplicación para encontrar rápidamente plantas específicas en el jardín virtual
-	
-26.	Ofrecer un panel de estadísticas que muestre cantidad de plantas cuidadas y frecuencia de riego
-	
-27.	Permitir que los usuarios etiqueten sus plantas con nombres o etiquetas personalizadas para una mejor organización en el jardín virtual
-	
-28.	Agregar un calendario para que los usuarios planifiquen y registren actividades relacionadas con sus plantas, como fechas de trasplante o poda
-	
-29.	Analizar las fotos de las plantas para detectar posibles signos de enfermedades o problemas de crecimiento y notificar al usuario
-	
-30.	Permitir el uso de sensores del dispositivo como el  GPS para la identificacionn precisa de las plantas
-</pre>
-
-# Diagrama de Clases y de casos de uso  
-![0](https://github.com/user-attachments/assets/a8301384-21c0-4be4-baf0-2b3bdda6f4c6)
+Ahora asi lo implemente yo:<br/>
+Primero se descarga el archivo en Teacheable machine:<br/>
+![image](https://github.com/user-attachments/assets/d3a414c3-45f3-483b-95ef-c153e4e4f14d)<br/>
+El archivo es un .tflite, ese se copia en la carpeta assets del proyecto app/src/main/assets.<br/>
+![image](https://github.com/user-attachments/assets/e923f198-8408-4a4d-9488-71fb9a52b1f9)<br/>
+Luego en el build gradle a nivel de app se tiene que agragar la dependencia de tensorflow:<br/>
+implementation("org.tensorflow:tensorflow-lite:2.9.0")<br/>
+Hay otra forma que ya te lo agrega android studio las dependencias que en los videos explican, pero pues o lo puse manual :(.<br/>
+Bueno ya en android studio toca crear una clase classifier para poder cargar el modelo:<br/>
+![image](https://github.com/user-attachments/assets/080c785b-a8c7-4861-85b9-99ce23c55b20)<br/>
+Luego en la clase principal se debe tener un metodo para capturar o subir las imagenes:<br/>
+En mi codigo como es una version vieja esta desordenado jajaja pero los metodos estan en la clase PlantActivity, son estos:<br/>
+showImageSourceDialog() este va a preguntar si se quiere subir una foto o tomarla directamente<br/>
+![image](https://github.com/user-attachments/assets/85663220-498a-4735-af50-ab29a1eeac2f)<br/>
+openCamera() si se elije abrir la camara se usa este metodo, este abre la cámara del dispositivo para tomar una foto, guarda la imagen en un archivo temporal y usa FileProvider para obtener la URI segura del archivo.<br/>
+![image](https://github.com/user-attachments/assets/ce6f9e57-e9e6-432e-9607-76bb17542df4)<br/>
+openFileChooser() si se elije subir una imagen<br/>
+![image](https://github.com/user-attachments/assets/cd48cc03-2204-4db5-b80f-8885486bd5cd)<br/>
+onActivityResult(int requestCode, int resultCode, Intent data) maneja el resultado de la selección de imagen o captura con la cámara, si se elige una imagen, llama a recognizePlant(imageUri) para procesarla.<br/>
+![image](https://github.com/user-attachments/assets/12a1eb23-ad9a-4a09-94e4-641072f80f82)<br/>
+recognizePlant(Uri imageUri) convierte la imagen en un Bitmap, redimensiona la imagen a 224x224 píxeles para el modelo, llama a preprocessImage(Bitmap bitmap) para formatear la imagen en un array, usa el Classifier para predecir la planta en base a la imagen, y muestra el resultado en un Toast, ademas agrega la planta reconocida automáticamente a la base de datos con addRecognizedPlantToDatabase(). En la parte donde esta el nombre de las plantas pues se cambia dependiendo lo que uno este clasificando. <br/>
+![image](https://github.com/user-attachments/assets/e2f14aa3-bc1b-4489-8228-14f5860480b2)<br/>
+preprocessImage(Bitmap bitmap) convierte la imagen en un array normalizado de píxeles en el rango [0,1], que es el necesario para el modelo de Machine Learning.<br/>
+![image](https://github.com/user-attachments/assets/8aedc175-5a0c-4644-bb9b-8d1f451a7125)<br/>
+createImageFile() crea un archivo temporal en el almacenamiento para guardar la imagen capturada y devuelve un archivo con un nombre basado en la fecha actual.<br/>
+![image](https://github.com/user-attachments/assets/18be2c7c-1f3b-403b-9e5f-41e0d8943f5d)<br/>
+addRecognizedPlantToDatabase(String name, String description) agrega una planta reconocida automáticamente a la base de datos de Firebase.<br/>
+![image](https://github.com/user-attachments/assets/73c422bd-0532-4ef6-a1fb-902e35f9cf82)<br/>
+Listo, esa es la manera en que yo lo integre, es basicamente añadir el modelo a la app y crear una clase classifier para poder cagar el modelo, y para subir las imagenes se pueden crear varios metodos.<br/>
+<br/>
